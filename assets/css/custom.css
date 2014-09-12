@@ -34,8 +34,9 @@ a:hover {
 html,
 body {
   height: 100%; 
-  background: #072a43 url('../img/bg-wildsea-blue.png') top left repeat;
+  background: #072a43 url('../img/bg-cover.jpg') bottom center repeat fixed;
   font-size: 16px;
+  /*background-size: 100%;*/
 }
 body {
   color: #fff;
@@ -119,6 +120,9 @@ img.logo { margin-bottom: 30px!important; }
   }
 }
 
+iframe {
+  /*border: 4px solid #ffffff;*/
+}
 
 /*
  * Cover
